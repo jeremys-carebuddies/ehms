@@ -308,3 +308,13 @@ REST_FRAMEWORK = {
         # 'rest_framework.permissions.AllowAny',
     ]
 }
+
+
+# ------------------------------------------------------------------------------
+# GOOGLE SMTP EMAIL SETUP
+# ------------------------------------------------------------------------------
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = "587"
+EMAIL_HOST_USER = "gehloachjimmy@gmail.com"
+EMAIL_HOST_PASSWORD = "obtxibiwaudkqysy"
+EMAIL_USE_TLS = True
